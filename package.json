@@ -1,0 +1,26 @@
+{
+  "name": "JSDisBot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "@discordjs/opus": "^0.1.0",
+    "bufferutil": "^4.0.1",
+    "discord.js": "^12.0.0",
+    "erlpack": "^0.1.3",
+    "ffmpeg-static": "^4.0.1",
+    "libsodium-wrappers": "^0.7.6",
+    "mysql2": "^2.1.0",
+    "node-fetch": "^2.6.0",
+    "sequelize": "^5.21.5",
+    "sqlite3": "^4.1.1",
+    "utf-8-validate": "^5.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
