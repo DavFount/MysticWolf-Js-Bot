@@ -26,7 +26,7 @@ module.exports = {
 
                         message.member.roles.remove(defaultRole);
                         message.member.roles.add(starterRole);
-                        message.reply('Thank you for accepting our communities rules. You many now join the others in their discussions.');
+                        message.reply('Thank you for accepting our communities rules. You may now join the others in their discussions.');
                     } else {
                         message.reply(`You must be in the ${config.server_contracts[contract].channel} channel to accept that contract.`);
                     }
